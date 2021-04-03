@@ -1,0 +1,29 @@
+@import "~antd/dist/antd.min.css";
+
+.page {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  justify-items: center;
+  align-items: center;
+  .error-message {
+    color: firebrick;
+    background: rgba(255, 10, 10, .1);
+    border: 1px solid firebrick;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .form {
+    display: grid;
+    width: 50vw;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    grid-gap: 2rem;
+    button {
+      display: flex;
+      justify-self: center;
+      width: 50%;
+    }
+  }
+}
